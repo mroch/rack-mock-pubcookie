@@ -1,0 +1,17 @@
+PATH
+  remote: .
+  specs:
+    rack-mock-pubcookie (0.0.1)
+      rack (~> 1.2.0)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    rack (1.2.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rack (~> 1.2.0)
+  rack-mock-pubcookie!
