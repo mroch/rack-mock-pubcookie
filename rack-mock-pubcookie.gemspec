@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
 
   s.rubyforge_project = "rack-mock-pubcookie"
 
-  s.add_dependency "rack", "~> 1.2.0"
+  s.add_dependency "rack", ">= 1.2.0"
 
   s.files         = Dir.glob("{lib}/**/*") + %w[LICENSE]
   s.require_paths = ["lib"]
